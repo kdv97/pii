@@ -12,6 +12,7 @@ The data provided in the Kaggle competition consisted of 6807 student samples, g
 * **Trailing Whitespace**: Indicating if a given token (word) is followed by whitespace
 * **Labels**: The label of each token (word), which is one of the following 
   * ```PII```: NAME_STUDENT, EMAIL, USERNAME, ID_NUM, PHONE_NUM, URL_PERSONAL, STREET_ADDRESS
+     * Indicated with a B or I depending on if it is the first token (word) in the PII or not
   * ```NON-PII```: O
 
 

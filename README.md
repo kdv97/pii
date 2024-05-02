@@ -18,6 +18,9 @@ The data provided in the Kaggle competition consisted of 6807 student samples, g
  ### Data/Parameter Exploration
  All of the following files are in the DataExploration folder and outline how we chose various parameters:
  1. Data Preprocessing: In [data-exploration.ipynb](DataExploration/data-exploration.ipynb), we compute a few metrics about the raw data to find distribution of data, and split the data into a training and testing set. We also tokenize the text, and preprocess it for partitioning (one of the methods we use in our fine-tuning)
- 2. Truncation: In (DataExploration/truncation-cutoff.ipynb), we compute the best middle-truncation cutoffs, which is one of hte methods we use in our fine-tuning.
+ 2. Truncation: In [truncation-cutoff.ipynb](DataExploration/truncation-cutoff.ipynb), we compute the best middle-truncation cutoffs, which is one of hte methods we use in our fine-tuning.
+
+### Models
+All of our models fine-tune existing language models, with the two base models we use RoBERTa and DeBERTa. We maintain a folder for each, separating the two base models. Each training file has the form (base_model)-model-(method), where the base_model indicates if deBERTa or roBERTa was used and the method is either partition or truncation. For each training file, there is a separate corresponding inference file named (base-model)-inference-(method), so that each are tune for the method we use to train. 
 
 

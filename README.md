@@ -14,7 +14,7 @@ The data provided in the Kaggle competition consisted of 6807 student samples, g
   * ```PII```: NAME_STUDENT, EMAIL, USERNAME, ID_NUM, PHONE_NUM, URL_PERSONAL, STREET_ADDRESS
      * Indicated with a B or I depending on if it is the first token (word) in the PII or not
   * ```NON-PII```: O
-
+The data can be found [here](https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/data).
  ### Data/Parameter Exploration
  All of the following files are in the DataExploration folder and outline how we chose various parameters:
  1. Data Preprocessing: In [data-exploration.ipynb](DataExploration/data-exploration.ipynb), we compute a few metrics about the raw data to find distribution of data, and split the data into a training and testing set. We also tokenize the text, and preprocess it for partitioning (one of the methods we use in our fine-tuning) as well as choose which samples to downsample (if we downsample). 

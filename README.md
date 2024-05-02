@@ -7,10 +7,10 @@ Our goal is to identify which word(s) in a student essay are personally identifi
 
 ### Data Overview
 The data provided in the Kaggle competition consisted of 6807 student samples, given as a dataset with: 
-** Full Text
-** Tokens: The words forming the text
-** Trailing Whitespace: Indicating if a given token (word) is followed by whitespace
-** Labels: The label of each token (word), which is one of the following 
+* **Full Text**
+* **Tokens**: The words forming the text
+* **Trailing Whitespace**: Indicating if a given token (word) is followed by whitespace
+* **Labels**: The label of each token (word), which is one of the following 
   * ```PII```: NAME_STUDENT, EMAIL, USERNAME, ID_NUM, PHONE_NUM, URL_PERSONAL, STREET_ADDRESS
   * ```NON-PII```: O
 

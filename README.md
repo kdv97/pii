@@ -15,4 +15,8 @@ The data provided in the Kaggle competition consisted of 6807 student samples, g
      * Indicated with a B or I depending on if it is the first token (word) in the PII or not
   * ```NON-PII```: O
 
+ ### Data/Parameter Exploration
+ All of the following files are in the DataExploration folder and outline how we chose various parameters:
+ 1. Data Preprocessing: In 
+
 
